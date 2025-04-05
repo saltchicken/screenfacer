@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screenfacer"
+version = "0.1.0"
+dependencies = [
+  "ultralytics"
+]
+
+[project.scripts]
+facer = "screenfacer.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
