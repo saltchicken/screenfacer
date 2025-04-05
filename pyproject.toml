@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-facer = "screenfacer.__main__:main"
+screenfacer = "screenfacer.__main__:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
